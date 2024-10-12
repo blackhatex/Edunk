@@ -4,7 +4,9 @@ name = "cf-worker-id-dev" # todo
 #main = "test/worker/worker-connect-test.js"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
-
+[[routes]]
+pattern = "gc.fghwrt.web.id"
+custom_domain = true
 
 [vars]
 # UUID = "6baea179-0f18-4c98-a4a1-44c740d30cff"
